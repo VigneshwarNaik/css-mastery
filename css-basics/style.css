@@ -1,0 +1,27 @@
+/* body means full webpage */
+body{
+    background-color: lightgray;
+    /* page background color */
+}
+
+/* h1 means heading */
+h1{
+    color: blue;
+    text-align: center;
+    /* heading blue and center */
+}
+
+/* paragraph */
+p{
+    color: green;
+    font-size: 20px;
+    /* green text and size */
+}
+
+/* button */
+button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    /* inside spacing */
+}
