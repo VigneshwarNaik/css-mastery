@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/* button tag styling */
+button{
+    padding: 12px 20px;
+    /* inside space:
+       12px top-bottom
+       20px left-right */
+
+    background: blue;
+    /* button background color */
+
+    color: white;
+    /* button text color */
+
+    border: none;
+    /* removes default border */
+
+    transition: 0.3s;
+    /* smooth change effect in 0.3 seconds */
+}
+
+/* hover means when mouse touches button */
+button:hover{
+
+    background: red;
+    /* button color changes to red */
+
+    transform: scale(1.1);
+    /* button becomes 10% bigger (zoom effect) */
+}
+
+/* box class styling */
+.box{
+    width: 100px;
+    /* horizontal size */
+
+    height: 100px;
+    /* vertical size */
+
+    background: green;
+    /* box background color */
+
+    animation: slide 4s infinite;
+    /* animation name = slide
+       duration = 4 seconds
+       infinite = repeat forever */
+}
+
+/* keyframes means animation steps */
+@keyframes slide{
+
+    0%{
+        transform: translateX(0);
+        /* start position */
+    }
+
+    50%{
+        transform: translateX(200px);
+        /* move right side 200px */
+    }
+
+    100%{
+        transform: translateX(0);
+        /* return to original place */
+    }
+}
+
+</style>
+</head>
+<body>
+
+<!-- hover effect button -->
+<button>Hover Me</button>
+
+<br><br>
+
+<!-- moving animated box -->
+<div class="box"></div>
+
+</body>
+</html>
