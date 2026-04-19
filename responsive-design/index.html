@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/* body means full webpage */
+body{
+    font-family: Arial;
+    /* changes text style */
+}
+
+/* container means main content box */
+.container{
+    width: 80%;
+    /* takes 80% screen width on desktop */
+
+    margin: auto;
+    /* centers box horizontally */
+
+    background: lightblue;
+    /* background color */
+
+    padding: 20px;
+    /* inside spacing */
+}
+
+/* image responsive settings */
+img{
+    max-width: 100%;
+    /* image fits inside container
+       image never goes outside box */
+}
+
+/* Responsive rules for mobile/tablet screens
+   Apply when screen width is 768px or less */
+@media (max-width:768px){
+
+    body{
+        background: lightgray;
+        /* change page background on mobile */
+    }
+
+    .container{
+        width: 100%;
+        /* full screen width on mobile */
+
+        padding: 10px;
+        /* smaller inside spacing */
+    }
+
+    h1{
+        font-size: 24px;
+        /* smaller heading text on mobile */
+    }
+}
+
+</style>
+</head>
+<body>
+
+<!-- Main content container -->
+<div class="container">
+
+    <!-- Heading -->
+    <h1>Responsive Website</h1>
+
+    <!-- Responsive image -->
+    <img src="image.png" alt="sample">
+
+    <!-- Paragraph -->
+    <p>Resize screen to test.</p>
+
+</div>
+
+</body>
+</html>
