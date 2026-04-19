@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/* parent container */
+.container{
+    display: flex;
+    /* enables flexbox */
+
+    justify-content: center;
+    /* horizontal alignment */
+
+    align-items: center;
+    /* vertical alignment */
+
+    gap: 10px;
+    /* space between items */
+
+    flex-wrap: wrap;
+    /* move next line if no space */
+
+    height: 200px;
+    background: lightgray;
+}
+
+/* child items */
+.box{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+</div>
+
+</body>
+</html>
