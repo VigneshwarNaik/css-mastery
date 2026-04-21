@@ -1,28 +1,53 @@
-# 🎨 css-mastery
+# CSS Hub 🎨
 
-🚀 Welcome to **css-mastery** — your complete roadmap to learn CSS from beginner to advanced and build modern, beautiful websites.  
+A structured repository for learning **CSS from basics to advanced** with clean examples, organized folders, and beginner-friendly notes.
 
-## 📚 Topics Covered
-✨ CSS Basics  
-✨ Selectors & Specificity  
-✨ Colors, Fonts & Typography  
-✨ Box Model  
-✨ Display & Positioning  
-✨ Flexbox Layout  
-✨ CSS Grid Layout  
-✨ Responsive Design  
-✨ Transitions & Animations  
-✨ Modern UI / UX Styling  
+## 📂 Repository Structure
 
-## 🎯 Mission
-Build a strong CSS foundation and gain the skills to design responsive, attractive, and professional web interfaces.  
+* `css-basics/` – inline, internal, external CSS
+* `selectors/` – element, class, id, combinators, pseudo selectors
+* `colors-text/` – colors, fonts, text styling
+* `box-model/` – margin, border, padding, width, height
+* `flexbox/` – layout, alignment, spacing
+* `grid/` – CSS Grid layout examples
+* `responsive-design/` – media queries and mobile responsive design
+* `effects-animation/` – transitions, transforms, animations
+* `docs/` – premium notes and learning resources
 
-## 💡 Motivation
-Success in frontend development starts with mastering CSS.  
-Practice daily, stay consistent, and keep creating amazing designs. 🚀  
+## 🎯 What You’ll Learn
 
-## 🌟 Goal
-From simple styling to advanced layouts — become confident in CSS and ready for real-world projects.  
+✅ CSS fundamentals
+✅ Modern layouts with Flexbox & Grid
+✅ Responsive web design
+✅ Styling text and colors
+✅ Animations and visual effects
+✅ Frontend interview preparation topics
 
-## 🔥 Keep Growing
-Learn 💻 Practice 🎯 Create 🎨 Improve 🚀
+## 🛠 How to Run Code
+
+1. Open any `.html` file in browser
+2. Or use VS Code + Live Server extension
+3. Edit CSS files and see live changes
+
+## 🌟 Best For
+
+* Beginners learning CSS
+* Students building portfolios
+* Frontend learners before React
+* Anyone revising CSS quickly
+
+## 🤝 Contributing
+
+Contributions, forks, and suggestions are welcome.
+
+## 📄 License
+
+This project is open source under the **MIT License**.
+
+## 👨‍💻 Author
+
+**Vigneshwar Naik**
+
+---
+
+⭐ If this repository helps you, give it a star on GitHub!
